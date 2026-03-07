@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
-  // Base path: '/' for Render, '/repo-name/' for GitHub Pages
-  base: '/'
+  base: '/front_end_se2_lab6/' // Updated base path
 })
