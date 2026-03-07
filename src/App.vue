@@ -6,9 +6,9 @@
       <div class="header-inner">
         <div class="logo">
           <span class="logo-icon">🌙</span>
-          <span class="logo-text">Mood Journal</span>
+          <span class="logo-text">Joshua's Mood Journal</span>
         </div>
-        <p class="tagline">Track your vibe, every day.</p>
+        <p class="tagline">Joshua's personal mood tracker.</p>
       </div>
     </header>
 
@@ -124,7 +124,7 @@
     </main>
 
     <footer class="footer">
-      <p>Made with 💜 · Mood Journal</p>
+      <p>Made with 💜 · Joshua's Mood Journal</p>
     </footer>
   </div>
 </template>
