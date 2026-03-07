@@ -1,0 +1,47 @@
+/* ============================================================
+   Global Styles — Mood Journal
+   ============================================================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-dark:       #0d0d1a;
+  --bg-card:       rgba(255,255,255,0.05);
+  --bg-card-hover: rgba(255,255,255,0.09);
+  --border:        rgba(255,255,255,0.10);
+  --accent:        #7c6af7;
+  --accent-light:  #a99cf5;
+  --accent-glow:   rgba(124,106,247,0.35);
+  --text-primary:  #f0eeff;
+  --text-muted:    #8a8aa8;
+  --success:       #4ade80;
+  --danger:        #f87171;
+  --font:          'Inter', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg-dark);
+  color: var(--text-primary);
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(124,106,247,0.22) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 40% at 90% 90%,  rgba(80,200,200,0.10) 0%, transparent 60%);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(124,106,247,0.4); border-radius: 99px; }
+
+/* Utility */
+.glass {
+  background: var(--bg-card);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+}
